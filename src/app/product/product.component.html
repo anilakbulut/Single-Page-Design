@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3 mt-2" *ngFor="let item of product | 
+      categoryFilter:categoryId | filterBySort:sortByFilter; let i=count;"
+      >
+        <div class="card mt-2" style="border-radius: 12px;">
+            <div class="card-body">
+              <img src="https://picsum.photos/150" width="348px" height="344.92px
+              " class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text typeOfTitle"><b>{{item.productName}}</b></p>
+                <h3 class="card-title typeOfCategory"><b>{{item.productType}}</b></h3>
+              </div>
+            </div>
+        </div>
+        <button class="productButton mt-2">Reedem for {{item.productPrice}}</button>
+      </div>
+      
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+  <div class="row justify-content-center">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+          <div class="mx-auto footer"  >
+              16 of 36 Products
+          </div>  
+      </div>
+      <div class="col-sm-2 pager">Page 1 of 2</div>
+  </div>
+</div>
+

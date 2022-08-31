@@ -1,0 +1,93 @@
+.leftCol{
+    /* TECH zone */
+
+    width: 602px;
+    height: 320px;
+
+    /* Desktop/Headings/L1/Default */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 80%;
+    /* or 160px */
+    text-transform: uppercase;
+
+    /* Brand/Default */
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.rightPic{
+    /* 1 1 */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+
+}
+
+.textZone{
+        /* Here you’ll be able to exchange all of your hard-earned Aeropoints and exchange them for cool tech. */
+
+    width: 523px;
+    height: 54px;
+
+    /* Desktop/Text/L1/Default| */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    /* Neutrals/600 */
+    color: #7C899C;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.BtnProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+    
+    width: 200px;
+    height: 50px;
+
+    /* Brand/Default */
+
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.mt-n1 {
+    margin-bottom: 150rem !important;
+}
+

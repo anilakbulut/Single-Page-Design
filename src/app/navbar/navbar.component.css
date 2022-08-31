@@ -1,0 +1,208 @@
+.navbarTech{
+    width: 1464px;
+    height: 38px;
+    
+    /* Desktop/Headings/L2/Default */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80%;
+    /* or 38px */
+    
+    text-transform: uppercase;
+    
+    /* Brand/Default */
+    
+    background: linear-gradient(102.47deg, #176FEB -5.34%,#176FEB -5.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.navbarProduct{
+    width: 1464px;
+    height: 38px;
+    
+    /* Desktop/Headings/L2/Default */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80%;
+    /* or 38px */
+    
+    text-transform: uppercase;
+    
+    /* Brand/Default */
+    
+    background: linear-gradient(102.47deg, #343438 -5.34%, #343438 106.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+hr{ 
+  
+    border:         none;
+    border-left:    1px solid black;
+    height:         5vh;
+    width:          1px;       
+}
+
+.mg-l{
+    margin-left: 30px;
+}
+
+.mg-r{
+    margin-right: 30px;
+}
+
+.sortButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+    
+    width: 165px;
+    height: 43px;
+
+    /* Brand/Default */
+
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sortButtonSecond{
+    width: 125px;
+    height: 27px;
+    
+    /* Desktop/Text/L1/Default| */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    
+    
+    /* Brand/Default */
+    
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btnBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+
+    width: 173px;
+    height: 43px;
+
+    background: #E6F0FF;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+    
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+
+.borderFilter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px 16px 24px;
+    gap: 16px;
+
+    width: 256px;
+    height: 59px;
+
+    /* Neutrals/0 */
+
+    background: #FFFFFF;
+    /* Neutrals/300 */
+
+    border: 1px solid #DAE4F2;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-text{
+     width: 81px;
+    height: 27px;
+
+    /* Desktop/Text/L1/Default| */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+
+    /* Neutrals/600 */
+
+    color: #7C899C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

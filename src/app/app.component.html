@@ -1,0 +1,15 @@
+<app-design-page></app-design-page>
+<div class="container">
+    <app-desingpagetwo  style="position:static"></app-desingpagetwo>
+</div>
+<app-navbar 
+(categoryId)='addCategoryId($event)'
+(sortByFilter)='sortByFilterValue($event)'
+>
+</app-navbar>
+<app-product 
+[categoryId]="categoryId"
+[sortByFilter]="sortByFilter"
+>
+</app-product>
+

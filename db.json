@@ -1,0 +1,21 @@
+{
+    "products":[
+    {"productId": 1, "categoryId":2,"productName":"Razer Blackwidow" ,"productType":"Gaming" , "productPrice":10123, "productClick":"1"},
+    {"productId": 2, "categoryId":3,"productName":"Sony SRSX11" ,"productType":"Audio" , "productPrice":20213, "productClick":"2"},
+    {"productId": 3, "categoryId":4,"productName":"Chromecast 3" ,"productType":"Smart Home" , "productPrice":30313, "productClick":"3"},
+    {"productId": 4, "categoryId":5,"productName":"Samsung Tv" ,"productType":"Monitors & TV" , "productPrice":4021, "productClick":"4"},
+    {"productId": 5, "categoryId":5,"productName":"Philips Tv" ,"productType":"Monitors & TV" , "productPrice":40413, "productClick":"4"},
+    {"productId": 6, "categoryId":5,"productName":"Profilo Tv" ,"productType":"Monitors & TV" , "productPrice":13055, "productClick":"4"},
+    {"productId": 7, "categoryId":5,"productName":"Samsung Tv" ,"productType":"Monitors & TV" , "productPrice":6020, "productClick":"13"},
+    {"productId": 8, "categoryId":5,"productName":"Samsung Tv" ,"productType":"Monitors & TV" , "productPrice":50000, "productClick":"12"},
+    {"productId": 9, "categoryId":4,"productName":"Chromecast 3" ,"productType":"Smart Home" , "productPrice":15313, "productClick":"9"}
+
+    ],
+    "category":[
+        {"categoryId":1,"categoryName":"All Products"},
+        {"categoryId":2,"categoryName":"Gaming"},
+        {"categoryId":3,"categoryName":"Audio"},
+        {"categoryId":4,"categoryName":"SmartHome"},
+        {"categoryId":5,"categoryName":"Monitor & TV"}
+    ]
+}

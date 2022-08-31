@@ -1,0 +1,103 @@
+.secondPart{
+    /* Walkthough cards BG */
+
+    position:relative;
+    height: 550px;
+    left: 0px;
+    right: 0px;
+
+    /* Specials/Section BG (50% opacity) */
+    background: linear-gradient(102.47deg, rgba(23, 111, 235, 0.5) -5.34%, rgba(255, 128, 255, 0.5) 106.58%);
+
+}
+
+.rotateImgLeft{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.34%;
+    bottom: -5.34%;
+    
+    background: url(Saly-3.png);
+    transform: rotate(-15deg);
+}
+
+.rotateImgCenter{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.34%;
+    bottom: -5.34%;
+
+    background: url(Saly-2.png);
+}
+
+.rotateImgRight{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.34%;
+    bottom: -5.34%;
+    
+    background: url(Saly-1.png);
+    
+    transform: rotate(15deg);
+}
+
+.cssTitle{
+    width: 201px;
+    height: 32px;
+
+    /* Desktop/Headings/L3/Default */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+
+    text-transform: uppercase;
+
+    /* Brand/Default */
+
+    background: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+
+    transform: rotate(-3deg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.cssDesc{
+    width: 372px;
+    height: 54px;
+
+    /* Desktop/Text/L1/Default| */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+
+    /* Neutrals/600 */
+
+    color: #7C899C;
+
+    transform: rotate(-3deg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
